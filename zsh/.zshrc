@@ -13,3 +13,4 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+export SSH_AUTH_SOCK=/Users/cpeterson/.bitwarden-ssh-agent.sock
